@@ -1,0 +1,21 @@
+Git and Github Resources
+https://unwiredlearning.notion.site/unwiredlearning/Git-GitHub-Resources-15b88c990e484f9880046db7acffce76
+
+
+
+
+
+…or create a new repository on the command line
+echo "# Resourse-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sshahbd77py/Resourse-git.git
+git push -u origin main
+
+==========================================
+…or push an existing repository from the command line
+git remote add origin https://github.com/sshahbd77py/Resourse-git.git
+git branch -M main
+git push -u origin main
