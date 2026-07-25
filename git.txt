@@ -12,3 +12,15 @@ git push -u origin main
 git remote add origin https://github.com/sshahbd77py/Resourse-git.git
 git branch -M main
 git push -u origin main
+
+Quick FixesChoose one of the following options based on your level of access and workspace preference:
+For your current repository only:
+Open Git Bash or your terminal inside the project folder and run:
+bashgit config core.longpaths true
+Use code with caution.
+For all repositories on your user account (Recommended):Run this command in any terminal window to apply the fix globally:
+bashgit config --global core.longpaths true
+Use code with caution.
+For the entire system (Requires Administrator rights):
+Open PowerShell or Command Prompt as an Administrator and run:
+bashgit config --system core.longpaths true
